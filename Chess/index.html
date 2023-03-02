@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Playing Chess</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body onload="restartGame()">
+    <h1>Chess</h1>
+
+    <table class="center">
+      <tbody class="game-board"></tbody>
+    </table>
+
+    <div class="timer-container">
+      <div class="timer">
+        <div class="timer-display">00:00:00</div>
+        <div class="timer-buttons">
+          <button onclick="restartGame()">Restart</button>
+          <button class="start-button">Start</button>
+          <button class="stop-button">Stop</button>
+          <button class="reset-button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+body {
+  background-color: #4e5948;
+  color: #bdbd9b;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #312a1f;
+}
+
+a {
+  color: #1d2e0b;
+}
+
+button,
+input[type="submit"] {
+  background-color: #3a521f;
+  color: #bdbd9b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #6a5e4a;
+  padding: 5px;
+}
+
+th {
+  background-color: #3a521f;
+  color: #bdbd9b;
+}
+
+td {
+  background-color: #bdbd9b;
+  color: #6a5e4a;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.selected {
+  outline: 5px solid orange;
+}
+
+.mark {
+  background-color: lightpink;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-board td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.timer-container {
+margin-top: 15px;
+
+}
+
+.timer {
+  font-size: 16px;
+}
+
+.timer-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.timer-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  background-color: #bdbd9b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.timer-buttons button:hover {
+  background-color: #6a5e4a;
+}
+
+.timer-buttons button:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
